@@ -1,0 +1,34 @@
+:root {
+    --theme: steelblue;
+    --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --transition: all 250ms ease;
+
+    --dark: #336996;
+    --clear: #5b97c9;
+    --soft: #81b1d8;
+}
+::selection {
+    background-color: var(--theme);
+    color: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: var(--font);
+    cursor: default; /* new */
+}
+button {
+    cursor: pointer;
+}
+img {
+    display: block;
+}
