@@ -34,3 +34,8 @@ button {
 img {
     display: block;
 }
+@media (max-width: 480px) {
+    p, a, label, input, textarea {
+        font-weight: lighter !important;
+    } 
+}
